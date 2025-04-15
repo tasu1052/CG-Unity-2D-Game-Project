@@ -7,7 +7,7 @@ public class Bullet : MonoBehaviour
 
     void Start()
     {
-        Destroy(gameObject, lifetime); // ÀÏÁ¤ ½Ã°£ ÈÄ ÆÄ±«
+        Destroy(gameObject, lifetime); // ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½ ï¿½ï¿½ ï¿½Ä±ï¿½
     }
 
     void Update()
@@ -19,7 +19,7 @@ public class Bullet : MonoBehaviour
     {
         if (other.CompareTag("Enemy"))
         {
-            Destroy(gameObject);
+            Destroy(gameObject);    // hi
         }
     }
 }
